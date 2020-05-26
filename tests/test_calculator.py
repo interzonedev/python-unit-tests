@@ -27,10 +27,10 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(self.calculator.multiply(10, 10), 100)
 
     def test_multiply(self):
-        self.assertEquals(self.calculator.divide(0, 1), 0)
-        self.assertEquals(self.calculator.divide(1, 1), 1)
-        self.assertEquals(self.calculator.divide(-1, 1), -1)
-        self.assertEquals(self.calculator.divide(-1, -1), 1)
+        self.assertEqual(self.calculator.divide(0, 1), 0)
+        self.assertEqual(self.calculator.divide(1, 1), 1)
+        self.assertEqual(self.calculator.divide(-1, 1), -1)
+        self.assertEqual(self.calculator.divide(-1, -1), 1)
         self.assertRaises(ValueError, self.calculator.divide, 1, 0)
 
 if __name__ == '__main__':

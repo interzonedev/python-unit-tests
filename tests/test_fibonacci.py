@@ -21,9 +21,6 @@ class FibonacciTest(unittest.TestCase):
     def test_calculate_two(self):
         self.assertEqual(self.bibonacci.calculate(2), 1)
 
-    def test_calculate_two(self):
-        self.assertEqual(self.bibonacci.calculate(2), 1)
-
     def test_calculate_three(self):
         self.assertEqual(self.bibonacci.calculate(3), 2)
 
